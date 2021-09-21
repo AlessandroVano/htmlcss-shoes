@@ -8,6 +8,7 @@
 .page-1 {
     background: red;
     height: 100vh;
+    position: relative;
 }
 .page-2 {
     background:green;
@@ -26,5 +27,13 @@
 .shoes img{
     width: 100%;
     display: block;
+    
+}
+ .shoes h1 {
+     position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
     
 }
