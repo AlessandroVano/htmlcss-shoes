@@ -19,18 +19,23 @@
 }
 
 /* SECTION */
- .shoes {
-    width: 750px;
-    margin: 30px auto ;
+
+ .contain {
+     position: absolute;
+     width: 100%;
+    
+    
 
 }
-.shoes img{
-    width: 100%;
+.contain img{
+    width: 570px;
+   
     display: block;
     
 }
- .shoes h1 {
-     position: absolute;
+ .contain h1 {
+     
+     display: block;
     font-size: 50px;
     top: 62%;
     left: 50%;
@@ -41,3 +46,9 @@
     
 }
 /* NAVIGATION */
+.navigation {
+    position: fixed;
+    
+    top: 50%;
+    right: 30px;
+}
