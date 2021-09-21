@@ -32,8 +32,12 @@
  .shoes h1 {
      position: absolute;
     font-size: 50px;
-    top: 50%;
+    top: 62%;
     left: 50%;
-    transform: translateY(-50%);
+    transform: translate(-50%);
+    color: yellow;
+    
+    font-family: 'Bungee', cursive;
     
 }
+/* NAVIGATION */
