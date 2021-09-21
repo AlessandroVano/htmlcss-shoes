@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* UTILITIES */
 .page-1 {
     background: red;
     height: 100vh;
@@ -15,4 +15,16 @@
 }.page-3 {
     background:yellow;
     height: 100vh;
+}
+
+/* SECTION */
+ .shoes {
+    width: 750px;
+    margin: 30px auto ;
+
+}
+.shoes img{
+    width: 100%;
+    display: block;
+    
 }
