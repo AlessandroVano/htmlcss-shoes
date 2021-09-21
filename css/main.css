@@ -20,18 +20,15 @@
 
 /* SECTION */
 
- .contain {
+ .contain  {
      position: absolute;
-     width: 100%;
-    
-    
-
+     left: 50%;
+     
 }
-.contain img{
+  .contain img{
     width: 570px;
-   
     display: block;
-    
+    transform: translate(-50%);   
 }
  .contain h1 {
      
@@ -44,6 +41,10 @@
     
     font-family: 'Bungee', cursive;
     
+}
+.page-3 h1 {
+    color: green;
+
 }
 /* NAVIGATION */
 .navigation {
