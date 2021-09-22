@@ -21,6 +21,9 @@
     height: 100vh;
     position: relative
 }
+html{ 
+    scroll-behavior: smooth;
+}
 
 /* SECTION */
 
@@ -52,11 +55,9 @@
     right: 30px;
     z-index: 1; 
 }
-
 .navigation li  {
     display: inline-block;
     margin: 0 20px;
-
 }
 .navigation li a {
     text-decoration: none;
