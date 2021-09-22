@@ -31,25 +31,23 @@
     transform: translate(-50%);   
 }
  .contain h1 {
-     
-     display: block;
+      display: block;
     font-size: 50px;
     top: 62%;
     left: 50%;
     transform: translate(-50%);
     color: yellow;
-    
     font-family: 'Bungee', cursive;
     
 }
 .page-3 h1 {
     color: green;
-
 }
 /* NAVIGATION */
-nav {
+.navigation {
     position: fixed;
     top: 7%;
+    transform: translate(0, -7%);
     right: 30px;
 }
 
